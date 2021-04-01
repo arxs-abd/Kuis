@@ -50,9 +50,8 @@ public class MainActivity extends AppCompatActivity {
         message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(Intent.ACTION_SENDTO);
-                a.setData(Uri.parse("smsto:"));
-                a.putExtra("smsbody", "Halo");
+                Intent a = new Intent(Intent.ACTION_DIAL);
+                a.setData(Uri.parse("tel:+6282195008936"));
                 if (a.resolveActivity(getPackageManager()) != null) {
                     startActivity(a);
                 }
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void tampilkan(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setTitle("Peringatan !!!?");
+        alertDialogBuilder.setTitle("Peringatan !!!");
         alertDialogBuilder
                 .setMessage("Apakah Anda Yakin Ingin Keluar ?")
                 .setIcon(R.mipmap.ic_launcher)

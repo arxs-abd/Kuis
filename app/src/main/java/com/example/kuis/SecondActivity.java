@@ -39,7 +39,7 @@ public class SecondActivity extends AppCompatActivity {
 
     private void tampilkan(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setTitle("Peringatan !!!?");
+        alertDialogBuilder.setTitle("Peringatan !!!");
         alertDialogBuilder
                 .setMessage("Apakah Anda Yakin Ingin Keluar ?")
                 .setIcon(R.mipmap.ic_launcher)

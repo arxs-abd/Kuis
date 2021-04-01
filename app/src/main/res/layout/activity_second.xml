@@ -18,17 +18,17 @@
 
     <Button
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:id="@+id/back"
         android:layout_below="@+id/cvText"
         android:layout_alignLeft="@+id/cvText"
-        android:text="back"/>
+        android:drawableTop="@drawable/back"/>
 
     <Button
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:id="@+id/exit"
         android:layout_below="@+id/cvText"
         android:layout_alignRight="@+id/cvText"
-        android:text="exit"/>
+        android:drawableTop="@drawable/power"/>
 </RelativeLayout>
