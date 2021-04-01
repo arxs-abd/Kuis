@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
         alertDialogBuilder.setTitle("Peringatan !!!");
         alertDialogBuilder
                 .setMessage("Apakah Anda Yakin Ingin Keluar ?")
-                .setIcon(R.mipmap.ic_launcher)
                 .setCancelable(false)
                 .setPositiveButton("Iye",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
